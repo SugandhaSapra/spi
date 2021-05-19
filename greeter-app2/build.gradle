@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    rootProject.allprojects.each {
+        if (it.name.matches("[a-zA-Z]+-greeter")) {
+            compile(project(":greeter-app2:greeters:" + it.name));
+        }
+    }
+    compile(project(":greeter-app2:greeter-api"))
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

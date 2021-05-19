@@ -1,0 +1,4 @@
+com.core.impl.HindiGreeter
+com.core.impl.EnglishGreeter
+com.core.impl.FrenchGreeter
+com.core.impl.SpanishGreeter
