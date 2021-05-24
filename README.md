@@ -13,7 +13,7 @@ This will let you understand how to load the desired implementations within same
 
 2.**[greeter-app2](/greeter-app2)**
 
-This will let you understand how to load the desired implementations across multiple modules.
+This will let you understand how to load the desired implementations across multiple modules using service provider configuration file.
 
 3.**[greeter-app3](/greeter-app3)**
 
